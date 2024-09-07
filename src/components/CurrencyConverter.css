@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../images/worldMap.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    .currency-converter {
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        font-family: 'Arial', sans-serif;
+
+    }
+
+    .currency-converter h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .currency-converter input {
+        width: calc(100% - 22px);
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+    .currency-converter select {
+        width: 48%;
+        padding: 10px;
+        margin-right: 4%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+    .currency-converter select:last-child {
+        margin-right: 0;
+    }
+
+    .currency-converter .result {
+        margin-top: 20px;
+        padding: 15px;
+        background-color: #eef6ff;
+        border-radius: 4px;
+        text-align: center;
+        color: #0066cc;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .currency-converter .result p {
+        margin: 0;
+    }
